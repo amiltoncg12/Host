@@ -1,0 +1,115 @@
+/* small laptops a partir de 1100px */
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+       margin: 0 5px; 
+    }
+}
+
+/* tablet 900px */
+@media (max-width: 900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular 576px */
+@media (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .service-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .searchdomain-container h2 {
+       font-size: 28px; 
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 3rem 3rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* mini celular ate  375 */
+
+@media (max-width: 375px) {
+    .logo{
+        width: 35px;
+    }
+
+    .navbar-items li {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+
+    .default-btn {
+        padding: 8px 12px; 
+    }
+
+    .main-banner h1 {
+        font-size: 45px;
+    }
+
+    .main-banner p {
+        font-size: 20px;
+        margin-top: 10px;  
+    }
+
+    .precing-container p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .searchdomain-container p {
+        font-size: 18px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        font-size: 12px;
+    }
+
+    .searchdomain-container input[type="submit"] {
+        width: 100%;
+        font-size: 15px;
+    }
+}
